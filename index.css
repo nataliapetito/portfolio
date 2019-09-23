@@ -3,7 +3,7 @@
   }
 
 .Perfil {
-    height: 46.5vw;
+    height: 98vh;
     width: 30vw;
     background-color: lavenderblush;
     border: 3px groove gainsboro;
@@ -52,6 +52,7 @@ h1 {
 .Info {
     font-size: 14px;
     color: mediumpurple;
+    /*align-content: flex-end;*/
     animation: letterchangeI 5s infinite alternate;
 }
 
@@ -67,7 +68,7 @@ h1 {
 
 .Trabajos {
     margin-left: 1.5vw;
-    height: 23vw;
+    height: 49vh;
     width: 47vw;
     border: 3px ridge lavenderblush;
     border-radius: 8px;
@@ -136,7 +137,7 @@ h1 {
 }
 
 .Sobre-mí {
-    height: 22.8vw;
+    height: 47.6vh;
     width: 47vw;
     margin-left: 1.5vw;
     margin-top: 0.7vw;
@@ -171,7 +172,7 @@ h1 {
 .Contacto {
     margin-left: 1.5vw;
     margin-right: 0.3vw;
-    height: 46.5vw;
+    height: 98vh;
     width: 30vw;
     border: 3px ridge lavenderblush;
     border-radius: 8px;
