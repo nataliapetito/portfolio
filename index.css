@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+  }
+
+.Perfil {
+    height: 46.5vw;
+    width: 30vw;
+    background-color: lavenderblush;
+    border: 3px groove gainsboro;
+    border-radius: 8px;
+    padding-left: 1vw;  
+    padding-right: 1.3vw;
+    padding-bottom: 0.2vw;
+    margin-left: 0.3vw;
+    font-family: 'Kalam', cursive;
+    animation: changecolor1 5s infinite alternate;
+}
+
+@keyframes changecolor1 {
+    from {background-color: lavenderblush;}
+    to {background-color: mistyrose;}
+}
+    
+
+main {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.Picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Descripciones {
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    animation: letterchangeH 5s infinite alternate;
+}
+
+@keyframes letterchangeH {
+    from {color: mediumpurple;}
+    to {color: purple;}
+}
+
+.Info {
+    font-size: 14px;
+    color: mediumpurple;
+    animation: letterchangeI 5s infinite alternate;
+}
+
+@keyframes letterchangeI {
+    from {color: mediumpurple;}
+    to {color: mediumvioletred;}
+}
+
+.Principal {
+    font-family: 'Kalam', cursive;
+
+}
+
+.Trabajos {
+    margin-left: 1.5vw;
+    height: 23vw;
+    width: 47vw;
+    border: 3px ridge lavenderblush;
+    border-radius: 8px;
+    animation: changecolor2 5s infinite alternate;
+}
+
+@keyframes changecolor2 {
+    from {background-color: mistyrose;}
+    to {background-color: lavenderblush;}
+}
+
+.Trabajos h1 {
+    text-align: center;
+    color: purple;
+    animation: lettercolorT 5s infinite alternate;
+}
+
+@keyframes lettercolorT {
+    from {color:purple;}
+    to {color:mediumpurple;}
+}
+
+.proyectos {
+    display: flex;
+}
+
+.proyecto {
+    width: 25vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: justify;
+    font-family: 'Kalam', cursive;
+}
+
+.proyecto h2 {
+    font-size: 20px;
+    text-align: center;
+    animation: lettercolor 5s infinite alternate;
+}
+
+.proyecto p {
+    font-size: 16px;
+    animation: lettercolor 5s infinite alternate;
+}
+
+@keyframes lettercolor {
+    from {color:mediumvioletred;}
+    to {color:mediumpurple;}
+}
+
+.más {
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 2vw;  
+    padding-top: 0.3vw;
+}
+
+#ap {
+    color: gray;
+}
+
+.AS {
+    flex-direction: column;
+}
+
+.Sobre-mí {
+    height: 22.8vw;
+    width: 47vw;
+    margin-left: 1.5vw;
+    margin-top: 0.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: justify;
+    border: 3px ridge lavenderblush;
+    border-radius: 8px;
+    animation: changecolorF 5s infinite alternate;
+}
+
+@keyframes changecolorF {
+    from {background-color: beige;}
+    to {background-color:lavenderblush;}
+}
+
+.Sobre-mí p {
+    width: 45vw;
+    text-align: justify;
+    font-family: 'Kalam', cursive;
+    /*justify-content: center;*/
+    font-size: 16px;
+    animation: lettercolorI 5s infinite alternate;
+}
+
+@keyframes lettercolorI {
+    from {color: mediumpurple;}
+    to {color: mediumvioletred;}
+
+}
+
+.Contacto {
+    margin-left: 1.5vw;
+    margin-right: 0.3vw;
+    height: 46.5vw;
+    width: 30vw;
+    border: 3px ridge lavenderblush;
+    border-radius: 8px;
+    color:midnightblue;
+    background-color: aliceblue;
+}
+
+
+.Contacto h1 {
+    color:midnightblue;
+    animation: becbold 3s infinite alternate;
+}
+
+@keyframes becbold {
+    from {font-weight: bold;}
+    to {font-weight: bolder;}
+}
+
+
+.Contacto p {
+    font-family: 'Kalam', cursive;
+    text-decoration: overline;
+    padding-left: 1vw;
+    padding-top: 2vw;
+    color: midnightblue;
+}
+
+.Contacto h2 {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 2vw;
+    line-height: 2;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction:column;
+}
+
+form {
+    font-family: 'Kalam', cursive;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#Email {
+    font-family: 'Kalam', cursive;
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
+    border-radius: 8px;
+}
+
+
+
+#Mensaje {
+    font-family: 'Kalam', cursive;
+    height: 7vw;
+    margin-top: 0.5vw;
+    border-radius: 8px;
+}
+
+button {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 8px;
+    background-color: lavenderblush;
+    color:purple;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: plum;
+} 
