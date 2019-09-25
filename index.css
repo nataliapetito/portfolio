@@ -11,6 +11,7 @@
     padding-left: 1vw;  
     padding-right: 1.3vw;
     margin-left: 0.3vw;
+    margin-top: auto;
     /*margin-bottom: 1vh;*/
     font-family: 'Kalam', cursive;
     animation: changecolor1 5s infinite alternate;
@@ -25,6 +26,9 @@
 main {
     display: flex;
     overflow-y: hidden;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .Picture {
@@ -68,6 +72,7 @@ h1 {
 
 .Trabajos {
     margin-left: 0.75vw;
+    margin-top: 3vh;
     height: auto;
     width: 47vw;
     border: 3px ridge lavenderblush;
@@ -141,6 +146,7 @@ h1 {
     width: 47vw;
     margin-left: 0.75vw;
     margin-top: 1.5vh;
+    margin-bottom: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
     text-align: justify;
@@ -172,8 +178,7 @@ h1 {
 .Contacto {
     margin-left: 0.75vw;
     margin-right: 0.3vw;
-    margin-bottom: 1vh;
-    margin-top: 0.8vh;
+    margin-top: auto;
     height: auto;
     width: 30vw;
     border: 3px ridge lavenderblush;
@@ -206,7 +211,7 @@ h1 {
     font-family: 'Kalam', cursive;
     text-align: center;
     padding-left: 1vw;
-    padding-top: 0.5vw;
+    padding-top: 3vh;
     /*padding-bottom: 2vw;*/
     line-height: 2;
 }
@@ -246,7 +251,7 @@ button {
     border-radius: 8px;
     background-color: lavenderblush;
     color: midnightblue;
-    /*margin-bottom: 1vh;*/
+    margin-bottom: 2vh;
     margin-top: 3vw;
     transition-duration: 0.3s;
 }
